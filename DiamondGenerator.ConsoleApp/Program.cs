@@ -4,9 +4,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Diamond Generator");
-        int userNumber = Utils.GetValidUserNumber();
-        Console.WriteLine($"The informed number is {userNumber}");
+        DiamondGenerator.SetDiamondSize(Utils.GetValidUserNumber());
+        DiamondGenerator.ShowDiamond();
+        DiamondGenerator.CreateDiamond();
+        DiamondGenerator.ShowDiamond();
         Console.ReadKey();
     }
 }
