@@ -2,6 +2,9 @@
 
 class DiamondGenerator
 {
+    
+    // This class is responsible for creating and showing the diamond
+
     static int diamondSize = 0;
     static int previousSize = 0;
     static char[,] diamond = new char[0, 0];

@@ -2,6 +2,8 @@
 
 class Text
 {
+
+    //This class contains most of the text that will be shown to the user
     const int menuWidth = 40;
 
     public static void MainHeader()
@@ -43,6 +45,7 @@ class Text
         Thread.Sleep(1000);
         Console.WriteLine("Diamond created");
     }
+
     public static void DiamondSizeSetText()
     {
         Console.Clear();

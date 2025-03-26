@@ -2,6 +2,7 @@
 
 class Utils
 {  
+    // This class has contains most of the interactions with the user.
     public static int GetValidOption(int min, int max)
     {
         int number;

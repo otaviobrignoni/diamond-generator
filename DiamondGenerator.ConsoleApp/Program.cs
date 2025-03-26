@@ -4,6 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.Title = "Diamond Generator";
         while (true)
         {
             Text.MainHeader();
